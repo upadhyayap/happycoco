@@ -1,0 +1,794 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17C366F12B39540A00910E2C /* happycocoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C366F02B39540A00910E2C /* happycocoApp.swift */; };
+		17C366F32B39540A00910E2C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C366F22B39540A00910E2C /* ContentView.swift */; };
+		17C366F52B39540D00910E2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17C366F42B39540D00910E2C /* Assets.xcassets */; };
+		17C366F82B39540D00910E2C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17C366F72B39540D00910E2C /* Preview Assets.xcassets */; };
+		17C366FA2B39540D00910E2C /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C366F92B39540D00910E2C /* Persistence.swift */; };
+		17C366FD2B39540D00910E2C /* happycoco.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 17C366FB2B39540D00910E2C /* happycoco.xcdatamodeld */; };
+		17C367072B39540D00910E2C /* happycocoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C367062B39540D00910E2C /* happycocoTests.swift */; };
+		17C367112B39540D00910E2C /* happycocoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C367102B39540D00910E2C /* happycocoUITests.swift */; };
+		17C367132B39540D00910E2C /* happycocoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C367122B39540D00910E2C /* happycocoUITestsLaunchTests.swift */; };
+		1C336B9B89509CEA816FF330 /* Pods_happycoco.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E12B523701080E3A2A4BF5A /* Pods_happycoco.framework */; };
+		4297E7DDD2F7678B79AF3074 /* Pods_happycoco_happycocoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 671162A7409FFA661075510C /* Pods_happycoco_happycocoUITests.framework */; };
+		54EF66497B291218F034E60B /* Pods_happycocoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6988F78161E7C1E5B84A82C4 /* Pods_happycocoTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		17C367032B39540D00910E2C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 17C366E52B39540A00910E2C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17C366EC2B39540A00910E2C;
+			remoteInfo = happycoco;
+		};
+		17C3670D2B39540D00910E2C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 17C366E52B39540A00910E2C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17C366EC2B39540A00910E2C;
+			remoteInfo = happycoco;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		17C366ED2B39540A00910E2C /* happycoco.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = happycoco.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		17C366F02B39540A00910E2C /* happycocoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = happycocoApp.swift; sourceTree = "<group>"; };
+		17C366F22B39540A00910E2C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		17C366F42B39540D00910E2C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		17C366F72B39540D00910E2C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		17C366F92B39540D00910E2C /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		17C366FC2B39540D00910E2C /* happycoco.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = happycoco.xcdatamodel; sourceTree = "<group>"; };
+		17C367022B39540D00910E2C /* happycocoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = happycocoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		17C367062B39540D00910E2C /* happycocoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = happycocoTests.swift; sourceTree = "<group>"; };
+		17C3670C2B39540D00910E2C /* happycocoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = happycocoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		17C367102B39540D00910E2C /* happycocoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = happycocoUITests.swift; sourceTree = "<group>"; };
+		17C367122B39540D00910E2C /* happycocoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = happycocoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		264CA66A56A105B8D51734B3 /* Pods-happycoco.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-happycoco.release.xcconfig"; path = "Target Support Files/Pods-happycoco/Pods-happycoco.release.xcconfig"; sourceTree = "<group>"; };
+		3759AE81B4B77AFE9230CB0D /* Pods-happycoco.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-happycoco.debug.xcconfig"; path = "Target Support Files/Pods-happycoco/Pods-happycoco.debug.xcconfig"; sourceTree = "<group>"; };
+		46193396936C743475734614 /* Pods-happycocoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-happycocoTests.debug.xcconfig"; path = "Target Support Files/Pods-happycocoTests/Pods-happycocoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		61C1610042445C56C81DE323 /* Pods-happycocoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-happycocoTests.release.xcconfig"; path = "Target Support Files/Pods-happycocoTests/Pods-happycocoTests.release.xcconfig"; sourceTree = "<group>"; };
+		671162A7409FFA661075510C /* Pods_happycoco_happycocoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_happycoco_happycocoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6988F78161E7C1E5B84A82C4 /* Pods_happycocoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_happycocoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E12B523701080E3A2A4BF5A /* Pods_happycoco.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_happycoco.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBE1DEA78E5C77DD46669F01 /* Pods-happycoco-happycocoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-happycoco-happycocoUITests.release.xcconfig"; path = "Target Support Files/Pods-happycoco-happycocoUITests/Pods-happycoco-happycocoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F81556EA771C9447CE03A1CA /* Pods-happycoco-happycocoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-happycoco-happycocoUITests.debug.xcconfig"; path = "Target Support Files/Pods-happycoco-happycocoUITests/Pods-happycoco-happycocoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		17C366EA2B39540A00910E2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C336B9B89509CEA816FF330 /* Pods_happycoco.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17C366FF2B39540D00910E2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54EF66497B291218F034E60B /* Pods_happycocoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17C367092B39540D00910E2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4297E7DDD2F7678B79AF3074 /* Pods_happycoco_happycocoUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17C366E42B39540A00910E2C = {
+			isa = PBXGroup;
+			children = (
+				17C366EF2B39540A00910E2C /* happycoco */,
+				17C367052B39540D00910E2C /* happycocoTests */,
+				17C3670F2B39540D00910E2C /* happycocoUITests */,
+				17C366EE2B39540A00910E2C /* Products */,
+				7BAD9FE3BE3F7FC805E7CC6C /* Pods */,
+				2286C0F09D83B1FF59918B10 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		17C366EE2B39540A00910E2C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				17C366ED2B39540A00910E2C /* happycoco.app */,
+				17C367022B39540D00910E2C /* happycocoTests.xctest */,
+				17C3670C2B39540D00910E2C /* happycocoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		17C366EF2B39540A00910E2C /* happycoco */ = {
+			isa = PBXGroup;
+			children = (
+				17C366F02B39540A00910E2C /* happycocoApp.swift */,
+				17C366F22B39540A00910E2C /* ContentView.swift */,
+				17C366F42B39540D00910E2C /* Assets.xcassets */,
+				17C366F92B39540D00910E2C /* Persistence.swift */,
+				17C366FB2B39540D00910E2C /* happycoco.xcdatamodeld */,
+				17C366F62B39540D00910E2C /* Preview Content */,
+			);
+			path = happycoco;
+			sourceTree = "<group>";
+		};
+		17C366F62B39540D00910E2C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				17C366F72B39540D00910E2C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		17C367052B39540D00910E2C /* happycocoTests */ = {
+			isa = PBXGroup;
+			children = (
+				17C367062B39540D00910E2C /* happycocoTests.swift */,
+			);
+			path = happycocoTests;
+			sourceTree = "<group>";
+		};
+		17C3670F2B39540D00910E2C /* happycocoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				17C367102B39540D00910E2C /* happycocoUITests.swift */,
+				17C367122B39540D00910E2C /* happycocoUITestsLaunchTests.swift */,
+			);
+			path = happycocoUITests;
+			sourceTree = "<group>";
+		};
+		2286C0F09D83B1FF59918B10 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6E12B523701080E3A2A4BF5A /* Pods_happycoco.framework */,
+				671162A7409FFA661075510C /* Pods_happycoco_happycocoUITests.framework */,
+				6988F78161E7C1E5B84A82C4 /* Pods_happycocoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7BAD9FE3BE3F7FC805E7CC6C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3759AE81B4B77AFE9230CB0D /* Pods-happycoco.debug.xcconfig */,
+				264CA66A56A105B8D51734B3 /* Pods-happycoco.release.xcconfig */,
+				F81556EA771C9447CE03A1CA /* Pods-happycoco-happycocoUITests.debug.xcconfig */,
+				DBE1DEA78E5C77DD46669F01 /* Pods-happycoco-happycocoUITests.release.xcconfig */,
+				46193396936C743475734614 /* Pods-happycocoTests.debug.xcconfig */,
+				61C1610042445C56C81DE323 /* Pods-happycocoTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		17C366EC2B39540A00910E2C /* happycoco */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17C367162B39540D00910E2C /* Build configuration list for PBXNativeTarget "happycoco" */;
+			buildPhases = (
+				86BA44689229A5B4FA5E92D8 /* [CP] Check Pods Manifest.lock */,
+				17C366E92B39540A00910E2C /* Sources */,
+				17C366EA2B39540A00910E2C /* Frameworks */,
+				17C366EB2B39540A00910E2C /* Resources */,
+				C5832FBF06AB45FC8BB3C997 /* [CP] Embed Pods Frameworks */,
+				C0C56AC525D3F5D7726F4BB6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = happycoco;
+			productName = happycoco;
+			productReference = 17C366ED2B39540A00910E2C /* happycoco.app */;
+			productType = "com.apple.product-type.application";
+		};
+		17C367012B39540D00910E2C /* happycocoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17C367192B39540D00910E2C /* Build configuration list for PBXNativeTarget "happycocoTests" */;
+			buildPhases = (
+				41EBB9A6EB4C711D4735A530 /* [CP] Check Pods Manifest.lock */,
+				17C366FE2B39540D00910E2C /* Sources */,
+				17C366FF2B39540D00910E2C /* Frameworks */,
+				17C367002B39540D00910E2C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17C367042B39540D00910E2C /* PBXTargetDependency */,
+			);
+			name = happycocoTests;
+			productName = happycocoTests;
+			productReference = 17C367022B39540D00910E2C /* happycocoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		17C3670B2B39540D00910E2C /* happycocoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17C3671C2B39540D00910E2C /* Build configuration list for PBXNativeTarget "happycocoUITests" */;
+			buildPhases = (
+				5A10EDF2466867B410721CBB /* [CP] Check Pods Manifest.lock */,
+				17C367082B39540D00910E2C /* Sources */,
+				17C367092B39540D00910E2C /* Frameworks */,
+				17C3670A2B39540D00910E2C /* Resources */,
+				EDE76659B9389C7D6A541F9F /* [CP] Embed Pods Frameworks */,
+				C2042CCCCC224E3899C95F91 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17C3670E2B39540D00910E2C /* PBXTargetDependency */,
+			);
+			name = happycocoUITests;
+			productName = happycocoUITests;
+			productReference = 17C3670C2B39540D00910E2C /* happycocoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		17C366E52B39540A00910E2C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					17C366EC2B39540A00910E2C = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					17C367012B39540D00910E2C = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 17C366EC2B39540A00910E2C;
+					};
+					17C3670B2B39540D00910E2C = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 17C366EC2B39540A00910E2C;
+					};
+				};
+			};
+			buildConfigurationList = 17C366E82B39540A00910E2C /* Build configuration list for PBXProject "happycoco" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 17C366E42B39540A00910E2C;
+			productRefGroup = 17C366EE2B39540A00910E2C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				17C366EC2B39540A00910E2C /* happycoco */,
+				17C367012B39540D00910E2C /* happycocoTests */,
+				17C3670B2B39540D00910E2C /* happycocoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		17C366EB2B39540A00910E2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17C366F82B39540D00910E2C /* Preview Assets.xcassets in Resources */,
+				17C366F52B39540D00910E2C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17C367002B39540D00910E2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17C3670A2B39540D00910E2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		41EBB9A6EB4C711D4735A530 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-happycocoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5A10EDF2466867B410721CBB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-happycoco-happycocoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		86BA44689229A5B4FA5E92D8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-happycoco-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C0C56AC525D3F5D7726F4BB6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-happycoco/Pods-happycoco-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-happycoco/Pods-happycoco-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-happycoco/Pods-happycoco-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C2042CCCCC224E3899C95F91 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-happycoco-happycocoUITests/Pods-happycoco-happycocoUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-happycoco-happycocoUITests/Pods-happycoco-happycocoUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-happycoco-happycocoUITests/Pods-happycoco-happycocoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C5832FBF06AB45FC8BB3C997 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-happycoco/Pods-happycoco-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-happycoco/Pods-happycoco-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-happycoco/Pods-happycoco-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EDE76659B9389C7D6A541F9F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-happycoco-happycocoUITests/Pods-happycoco-happycocoUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-happycoco-happycocoUITests/Pods-happycoco-happycocoUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-happycoco-happycocoUITests/Pods-happycoco-happycocoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		17C366E92B39540A00910E2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17C366FD2B39540D00910E2C /* happycoco.xcdatamodeld in Sources */,
+				17C366FA2B39540D00910E2C /* Persistence.swift in Sources */,
+				17C366F32B39540A00910E2C /* ContentView.swift in Sources */,
+				17C366F12B39540A00910E2C /* happycocoApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17C366FE2B39540D00910E2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17C367072B39540D00910E2C /* happycocoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17C367082B39540D00910E2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17C367112B39540D00910E2C /* happycocoUITests.swift in Sources */,
+				17C367132B39540D00910E2C /* happycocoUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		17C367042B39540D00910E2C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 17C366EC2B39540A00910E2C /* happycoco */;
+			targetProxy = 17C367032B39540D00910E2C /* PBXContainerItemProxy */;
+		};
+		17C3670E2B39540D00910E2C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 17C366EC2B39540A00910E2C /* happycoco */;
+			targetProxy = 17C3670D2B39540D00910E2C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		17C367142B39540D00910E2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		17C367152B39540D00910E2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		17C367172B39540D00910E2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3759AE81B4B77AFE9230CB0D /* Pods-happycoco.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"happycoco/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = turbo.happycoco;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		17C367182B39540D00910E2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 264CA66A56A105B8D51734B3 /* Pods-happycoco.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"happycoco/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = turbo.happycoco;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		17C3671A2B39540D00910E2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46193396936C743475734614 /* Pods-happycocoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = turbo.happycocoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/happycoco.app/happycoco";
+			};
+			name = Debug;
+		};
+		17C3671B2B39540D00910E2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61C1610042445C56C81DE323 /* Pods-happycocoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = turbo.happycocoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/happycoco.app/happycoco";
+			};
+			name = Release;
+		};
+		17C3671D2B39540D00910E2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F81556EA771C9447CE03A1CA /* Pods-happycoco-happycocoUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = turbo.happycocoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = happycoco;
+			};
+			name = Debug;
+		};
+		17C3671E2B39540D00910E2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBE1DEA78E5C77DD46669F01 /* Pods-happycoco-happycocoUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = turbo.happycocoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = happycoco;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17C366E82B39540A00910E2C /* Build configuration list for PBXProject "happycoco" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17C367142B39540D00910E2C /* Debug */,
+				17C367152B39540D00910E2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17C367162B39540D00910E2C /* Build configuration list for PBXNativeTarget "happycoco" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17C367172B39540D00910E2C /* Debug */,
+				17C367182B39540D00910E2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17C367192B39540D00910E2C /* Build configuration list for PBXNativeTarget "happycocoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17C3671A2B39540D00910E2C /* Debug */,
+				17C3671B2B39540D00910E2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17C3671C2B39540D00910E2C /* Build configuration list for PBXNativeTarget "happycocoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17C3671D2B39540D00910E2C /* Debug */,
+				17C3671E2B39540D00910E2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		17C366FB2B39540D00910E2C /* happycoco.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				17C366FC2B39540D00910E2C /* happycoco.xcdatamodel */,
+			);
+			currentVersion = 17C366FC2B39540D00910E2C /* happycoco.xcdatamodel */;
+			path = happycoco.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 17C366E52B39540A00910E2C /* Project object */;
+}
